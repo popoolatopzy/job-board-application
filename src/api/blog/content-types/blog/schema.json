@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "default": "io"
+    },
+    "Body": {
+      "type": "richtext",
+      "default": "l;lk"
+    },
+    "Date": {
+      "type": "date",
+      "default": "2022-09-28"
+    }
+  }
+}
